@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Rating</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonnts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwsome -->
+    <script
+      src="https://kit.fontawesome.com/9efa984a6f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-box" data-header>
+        <div class="container">
+          <a href="#" class="logo">
+            <p class="logo-p">Second Rating</p>
+            <!-- <img
+              src="./images/logo.png"
+              alt="logo"
+              height="100px"
+              width="100px"
+              loading="lazy"
+            /> -->
+          </a>
+
+          <div class="mobile-lang">
+            <i class="fa-solid fa-earth-americas"></i>
+            <p id="optionAr" class="d-none" data-i18n="optionAr">العربية</p>
+            <p id="optionEn" class="d-flex" data-i18n="optionEn">الانجليزية</p>
+          </div>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a
+                  href="#home"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="home"
+                  >الرئيسية
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#service"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="service"
+                  >خدماتنا</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="about"
+                  >من نحن ؟</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#blog"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="blog"
+                  >أسالتكم</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#reservation"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="contact"
+                  >اتصل بنا</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallary"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="gallary"
+                  >معرض الصور</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#rates"
+                  class="navbar-link"
+                  data-navbar-link
+                  data-i18n="rates"
+                  >اراء العملاء</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <i class="fa-solid fa-bars menu-icon" aria-hidden="true"> </i>
+            <i class="fa-solid fa-xmark close-icon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <script src="app.js"></script>
+    <script src="translate.js"></script>
+  </body>
+</html>
