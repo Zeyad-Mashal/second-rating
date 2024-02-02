@@ -21,7 +21,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 20%);
-
+  --color-333: #333;
   /* gradient color */
 
   --gradient: linear-gradient(
@@ -120,6 +120,7 @@ body {
   color: var(--sonic-silver);
   font-size: 1.5rem;
   min-height: 300vh;
+  font-family: var(--ff-poppins) Arial, Helvetica, sans-serif;
 }
 
 /* Reused */
@@ -540,10 +541,38 @@ body {
 }
 hr {
   background-color: #999;
-  height: 3px;
+  height: 2px;
+  margin-bottom: 1.5rem;
 }
 .bold {
   font-weight: var(--fw-600);
-  color: #000;
+  color: #222;
   font-size: var(--fs-6);
+}
+.description-box p {
+  margin-bottom: 1rem;
+  color: var(--color-333);
+  font-size: var(--fs-7);
+}
+.description-title {
+  margin-bottom: 1rem;
+}
+.third-div {
+  margin: 2rem;
+}
+.email-card > a {
+  color: #bb9f01;
+  margin-bottom: 3rem;
+}
+.list-box {
+  margin-bottom: 2rem;
+}
+.list-box li {
+  margin-left: 3rem;
+}
+.div-desc {
+  margin-bottom: 1rem;
+}
+.div-desc > p {
+  margin-bottom: 0;
 }
