@@ -5,7 +5,7 @@
   --light-steel-blue: hsl(218, 33%, 77%);
   --royal-blue-light: #adadad;
   --flickr-blue_30: #eee;
-  --carolina-blue: rgb(201, 211, 5);
+  --carolina-blue: rgb(182, 190, 29);
   /* --carolina-blue: hsl(201, 92%, 47%); */
   --oxford-blue-1: #999;
   /* hsl(218, 70%, 18%) */
@@ -594,6 +594,10 @@ hr {
   margin-bottom: 1rem;
   padding: 1em;
 }
+.shop li {
+  text-decoration: none;
+  list-style: none;
+}
 .card-box .card-content h3 {
   margin: 0.5rem 0 0.5rem 0;
 }
@@ -628,6 +632,7 @@ hr {
 /* footer */
 .footer {
   padding-top: 0;
+  padding-bottom: 2rem;
 }
 .social {
   display: flex;
@@ -653,4 +658,34 @@ hr {
 }
 .social div:nth-child(4) i:hover {
   color: #316ff6;
+}
+.products-footer {
+  margin-top: 1rem;
+}
+.products-footer h2,
+a {
+  margin-top: 1rem;
+  font-size: var(--fs-6);
+  transition: 0.3s ease;
+  width: fit-content;
+}
+.products-footer a:hover {
+  color: var(--carolina-blue);
+}
+.footer-contact {
+  margin-top: 2rem;
+}
+.footer-contact h2,
+a {
+  margin-top: 1rem;
+  font-size: var(--fs-6);
+  transition: 0.3s ease;
+  width: fit-content;
+}
+.footer-contact a:hover {
+  color: var(--carolina-blue);
+}
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
 }
