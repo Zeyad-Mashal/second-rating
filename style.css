@@ -116,6 +116,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  max-width: 100%;
   background-color: #eee;
   color: var(--sonic-silver);
   font-size: 1.5rem;
@@ -575,4 +576,45 @@ hr {
 }
 .div-desc > p {
   margin-bottom: 0;
+}
+/* card shop */
+.shop {
+  padding-top: 0;
+  margin: 0;
+  width: 100%;
+}
+.shop h2 {
+  margin-bottom: 1rem;
+  padding: 1em;
+}
+.card-box .card-content h3 {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.has-scrollbar {
+  display: flex;
+  gap: 35px;
+  overflow-x: auto;
+  margin-inline: 15px;
+  padding-block-end: 40px;
+  margin-block-end: -20px;
+  scroll-snap-type: inline mandatory;
+  width: 100%;
+}
+.scrollbar-item {
+  width: 250px;
+  scroll-snap-align: start;
+}
+.has-scrollbar::-webkit-scrollbar {
+  height: 10px;
+}
+.has-scrollbar::-webkit-scrollbar-track {
+  background-color: var(--light-gray);
+  border-radius: var(--radius-4);
+}
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--royal-blue-light);
+  border-radius: var(--radius-4);
+}
+.has-scrollbar::-webkit-scrollbar-button {
+  width: calc(20% - 40px);
 }
