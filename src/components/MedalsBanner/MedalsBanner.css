@@ -1,0 +1,32 @@
+.medals_banner {
+  width: 100%;
+  margin: 0;
+  padding: 5rem;
+  background-image: url("../../images/futuer.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.medals_banner_container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.medals_banner_container h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.medals_banner_container p {
+  font-size: 18px;
+  color: #ccc;
+}
+@media screen and (max-width: 489px) {
+  .medals_banner {
+    padding: 1rem;
+  }
+}

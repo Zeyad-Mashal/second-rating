@@ -1,0 +1,57 @@
+.carousel img {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  height: 550px;
+  margin-top: 3rem;
+}
+/* .carousel .carousel-inner img {
+  margin-top: 1rem;
+} */
+.carousel .carousel-indicators button {
+  background-color: #fff;
+  width: 60px;
+  height: 3px;
+}
+.carousel-inner .carousel-item .carousel-caption {
+  color: #fff;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  margin-top: 3rem;
+}
+
+/*  Responsive Design */
+@media screen and (max-width: 991px) {
+  .hero {
+    height: auto;
+  }
+
+  .carousel .carousel-inner img {
+    height: auto;
+  }
+}
+@media screen and (max-width: 589px) {
+  .hero {
+    height: auto;
+  }
+  .carousel .carousel-inner img {
+    height: auto;
+  }
+}
+@media screen and (max-width: 489px) {
+  .hero {
+    height: auto;
+  }
+  .carousel .carousel-inner img {
+    height: auto;
+  }
+  .carousel .carousel-indicators {
+    margin: 0;
+  }
+  .carousel .carousel-indicators button {
+    width: 30px;
+    height: 3px;
+  }
+}

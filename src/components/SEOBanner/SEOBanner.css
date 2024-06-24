@@ -1,0 +1,31 @@
+.seo_banner {
+  width: 100%;
+  margin: 0;
+  padding: 5rem 1rem;
+  background-image: url("../../images/futuer.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seo_banner_conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+}
+.seo_banner_conatiner h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.seo_banner_conatiner p {
+  color: #ccc;
+  font-size: 18px;
+}
+@media screen and (max-width: 489px) {
+  .seo_banner {
+    padding: 2rem;
+  }
+}

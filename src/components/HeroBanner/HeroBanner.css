@@ -1,0 +1,30 @@
+.banner_hero {
+  width: 100%;
+  padding: 3.5rem;
+  margin: 0;
+  background-image: url("../../images/futuer.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.banner_hero h3 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #fff;
+}
+.banner_hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+@media screen and (max-width: 489px) {
+  .banner_hero {
+    padding: 1rem;
+  }
+}

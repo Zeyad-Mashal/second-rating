@@ -1,0 +1,48 @@
+.banner_card {
+  width: 100%;
+  padding: 5rem;
+  background-image: url("../../images/futuer.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.banner_card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.banner_card_container h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.banner_card_container p {
+  color: #ccc;
+  font-size: 18px;
+}
+.banner_card_container button {
+  padding: 10px 20px;
+  background: #aaa;
+  border: 1px solid #000;
+  font-size: 18px;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+.banner_card_container button:hover {
+  background-color: #000;
+  scale: 1.09;
+}
+.banner_card_container button a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.banner_card_container button:hover a {
+  color: #fff;
+}
+@media screen and (max-width: 489px) {
+  .banner_card {
+    padding: 1rem;
+  }
+}
